@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://media.giphy.com/media/xLR58tNJpACsg/giphy.gif');
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  color: wheat;
+  font-size: 50px;
+  animation: flash 0.1s infinite;
+  background-color: rgba(red, green, blue, alpha)
+}
+
+@keyframes flash {
+  0%   {color: yellow;}
+  25%  {color: pink;}
+  50%  {color: green;}
+  75%  {color: blue;}
+  100% {color: purple;}
+}
